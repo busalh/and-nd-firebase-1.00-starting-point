@@ -30,6 +30,12 @@
         android:orientation="horizontal">
 
         <ImageButton
+            android:id="@+id/cameraPickerButton"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@android:drawable/ic_menu_camera" />
+
+        <ImageButton
             android:id="@+id/photoPickerButton"
             android:layout_width="36dp"
             android:layout_height="36dp"
